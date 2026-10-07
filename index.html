@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Casa do Sabor — Cardápio</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#f7f4ef;color:#24211f;font-family:Arial,Helvetica,sans-serif}
+.hero{min-height:300px;padding:55px 20px;text-align:center;color:#fff;
+background:linear-gradient(#0008,#0008),url('https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=1400&q=80') center/cover}
+.hero h1{font-family:Georgia,serif;font-size:48px;margin:20px 0 8px}.hero p{font-size:18px}
+.nav{position:sticky;top:0;z-index:3;background:#fff;box-shadow:0 2px 12px #0001;padding:12px;text-align:center;overflow:auto;white-space:nowrap}
+.nav a{display:inline-block;text-decoration:none;color:#333;font-weight:bold;margin:0 10px;padding:8px 4px}
+.container{max-width:1000px;margin:auto;padding:25px 16px 50px}
+.section-title{text-align:center;font-family:Georgia,serif;font-size:30px;margin:35px 0 18px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.card{background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 4px 18px #00000012}
+.card img{width:100%;height:210px;object-fit:cover;display:block}
+.card-content{padding:17px}.card h3{margin:0 0 8px;font-size:20px}.desc{color:#777;line-height:1.45;margin:0 0 13px}
+.price{font-size:19px;font-weight:800}
+footer{background:#24211f;color:#fff;text-align:center;padding:30px 20px}
+@media(max-width:650px){.grid{grid-template-columns:1fr}.hero h1{font-size:38px}.card img{height:220px}}
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <div>🍽️</div>
+  <h1>Casa do Sabor</h1>
+  <p>Cardápio • Sabores especiais • Feito com carinho</p>
+</section>
+
+<nav class="nav">
+  <a href="#entradas">Entradas</a>
+  <a href="#principais">Pratos principais</a>
+  <a href="#porcoes">Porções</a>
+  <a href="#bebidas">Bebidas</a>
+  <a href="#sobremesas">Sobremesas</a>
+</nav>
+
+<main class="container">
+
+<section id="entradas">
+<h2 class="section-title">Entradas</h2>
+<div class="grid">
+<article class="card"><img src="https://images.unsplash.com/photo-1541014741259-de529411b96a?auto=format&fit=crop&w=900&q=80"><div class="card-content"><h3>Bruschetta Especial</h3><p class="desc">Pão artesanal, tomate fresco, manjericão e azeite.</p><span class="price">R$ 24,90</span></div></article>
+<article class="card"><img src="https://images.unsplash.com/photo-1572449043416-55f4685c9bb7?auto=format&fit=crop&w=900&q=80"><div class="card-content"><h3>Bolinho da Casa</h3><p class="desc">Porção crocante com recheio cremoso e molho especial.</p><span class="price">R$ 22,90</span></div></article>
+</div>
+</section>
+
+<section id="principais">
+<h2 class="section-title">Pratos principais</h2>
+<div class="grid">
+<article class="card"><img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80"><div class="card-content"><h3>Filé ao Molho Especial</h3><p class="desc">Filé grelhado, molho da casa, arroz e batatas rústicas.</p><span class="price">R$ 49,90</span></div></article>
+<article class="card"><img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=900&q=80"><div class="card-content"><h3>Massa Cremosa</h3><p class="desc">Massa artesanal com molho cremoso, parmesão e ervas.</p><span class="price">R$ 38,90</span></div></article>
+<article class="card"><img src="https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&w=900&q=80"><div class="card-content"><h3>Hambúrguer da Casa</h3><p class="desc">Pão brioche, carne artesanal, queijo, salada e molho especial.</p><span class="price">R$ 32,90</span></div></article>
+<article class="card"><img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=80"><div class="card-content"><h3>Salada Especial</h3><p class="desc">Folhas frescas, legumes, queijo e molho da casa.</p><span class="price">R$ 27,90</span></div></article>
+</div>
+</section>
+
+<section id="porcoes">
+<h2 class="section-title">Porções</h2>
+<div class="grid">
+<article class="card"><img src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=900&q=80"><div class="card-content"><h3>Batata Rústica</h3><p class="desc">Batatas douradas, temperadas com ervas.</p><span class="price">R$ 25,90</span></div></article>
+<article class="card"><img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=80"><div class="card-content"><h3>Porção Crocante</h3><p class="desc">Petisco crocante acompanhado de molho especial.</p><span class="price">R$ 29,90</span></div></article>
+</div>
+</section>
+
+<section id="bebidas">
+<h2 class="section-title">Bebidas</h2>
+<div class="grid">
+<article class="card"><img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=80"><div class="card-content"><h3>Refrigerante</h3><p class="desc">Lata — diversos sabores.</p><span class="price">R$ 6,00</span></div></article>
+<article class="card"><img src="https://images.unsplash.com/photo-1544145945-4c7e0c4f4c31?auto=format&fit=crop&w=900&q=80"><div class="card-content"><h3>Suco Natural</h3><p class="desc">Frutas selecionadas e preparado na hora.</p><span class="price">R$ 9,90</span></div></article>
+</div>
+</section>
+
+<section id="sobremesas">
+<h2 class="section-title">Sobremesas</h2>
+<div class="grid">
+<article class="card"><img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=80"><div class="card-content"><h3>Churros com Chocolate</h3><p class="desc">Churros quentinhos com cobertura cremosa.</p><span class="price">R$ 18,90</span></div></article>
+<article class="card"><img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=900&q=80"><div class="card-content"><h3>Fatia de Bolo</h3><p class="desc">Bolo artesanal do dia.</p><span class="price">R$ 14,90</span></div></article>
+</div>
+</section>
+
+</main>
+<footer>Casa do Sabor • Cardápio demonstrativo</footer>
+</body>
+</html>
